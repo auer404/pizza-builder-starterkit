@@ -44,7 +44,7 @@ function pb_render_builder() {
 
             // Prix : à formatter un minimum -> convertir en Euros, écriture élégante (2 digits après virgule)
 
-                echo "<li>" . $ing -> name . $price_exp . "</li>";
+                echo "<li><label><input type='checkbox' name='pb_ing[]' value='" . $ing -> term_id . "'> " . $ing -> name . $price_exp . "</label></li>";
         }
 
         echo "</ul>";

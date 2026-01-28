@@ -17,6 +17,7 @@ add_action("plugins_loaded" , function() {
   require_once(PB_PATH . "admin.php");
   require_once(PB_PATH . "ingredients_taxonomy.php");
   require_once(PB_PATH . "frontend.php" );
+  require_once(PB_PATH . "cart.php" );
 
 });
 
